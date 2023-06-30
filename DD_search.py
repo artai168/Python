@@ -35,8 +35,6 @@ def calculate_distance(api_key, origin, destination):
     gmaps = googlemaps.Client(key=api_key)
     distance_matrix = gmaps.distance_matrix(origin, destination, mode="driving", units="metric")
 
-    print(distance_matrix)
-
     if distance_matrix['status'] == 'OK':
         distance = distance_matrix['rows'][0]['elements'][0]['distance']['text']
         duration = distance_matrix['rows'][0]['elements'][0]['duration']['text']
