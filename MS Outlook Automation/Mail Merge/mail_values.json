@@ -1,0 +1,6 @@
+{
+    "project_code": "XXX_PROJECT_XXX",
+    "receiver": "Demo",
+    "mail_to": ["demo@receiver.com"],
+    "mail_cc": ["receiver_1@deom.com","receiver_2@deom.com"]
+}
