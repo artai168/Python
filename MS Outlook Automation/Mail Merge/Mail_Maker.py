@@ -1,11 +1,11 @@
-# Supporting files
+# It is a Python project which can send email by batch with different email topics, content and attachments by changing the variables in the below JSON files: 
 # mail_template.json
 # mail_values.json
 # mail_variables.json
-# This script is used to generate Outlook emails. Through COM objects, it can automatically fill in the recipient, CC, subject, content, and attachments of the email.
+# This script is used to generate Outlook emails. Through COM objects, it can automatically fill in the email's recipient, CC, subject, content, and attachments.
 # This script requires the pywin32 library to run, which can be installed using pip install pywin32.
-# This script requires the Outlook client to run
-# This script requires the "mail_template.json", "mail_values.json" and "mail_variables.json" files to be prepared in advance. Please refer to the appendix of this article for the format and content of these three files.
+# This script requires the Microsoft Outlook client to run
+# This script requires the "mail_template.json", "mail_values.json" and "mail_variables.json" files to be prepared in advance. Please look at the appendix of this article for the format and content of these three files.
 
 import json
 import os
