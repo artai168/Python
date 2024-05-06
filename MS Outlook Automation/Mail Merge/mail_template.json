@@ -1,0 +1,5 @@
+{
+    "header": "[@P_CODE@] some document in [@I_CODE@] location",
+    "content":"Dear @RECEIVER@,\nAccording to the project [@P_CODE@.\nPlease find the attached file @I_CODE@ location for reference.",
+    "attachments": ["D:\\attachment_[@I_CODE@].docx"]
+}
